@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/review"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingEnd="@dimen/margin_large"
+    android:paddingLeft="@dimen/margin_large"
+    android:paddingRight="@dimen/margin_large"
+    android:paddingStart="@dimen/margin_large"
+    android:paddingTop="@dimen/margin_default"
+    android:paddingBottom="@dimen/margin_default"
+    android:background="?android:attr/selectableItemBackground"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/review_author"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:lineSpacingMultiplier="@dimen/body_text_line_spacing"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        tools:text="Travis Bell"
+        />
+
+    <TextView
+        android:id="@+id/review_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_inline"
+        android:ellipsize="end"
+        android:lineSpacingMultiplier="@dimen/body_text_line_spacing"
+        android:maxLines="5"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        />
+
+</LinearLayout>
